@@ -1,0 +1,29 @@
+{
+  "name": "excel-app",
+  "version": "1.0.0",
+  "description": "Pure Javascript application",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ValeryKrukovich/excel-app.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Krukovich Valery <V.Krukovich@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ValeryKrukovich/excel-app/issues"
+  },
+  "homepage": "https://github.com/ValeryKrukovich/excel-app#readme",
+  "private": true,
+  "devDependencies": {
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  }
+}
